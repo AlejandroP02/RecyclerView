@@ -14,6 +14,7 @@ public class ElementosRepositorio {
     }
 
     ElementosRepositorio(){
+        //En el uri.parse es necesario poner android.resource://"el pakage"+"la imagen"
         elementos.add(new Elemento("Nao Tomori", "Nao tiene ojos color zafiro y pelo largo que es plateado y está atado en dos coletas a los lados. Ella se ve a menudo vistiendo su uniforme, que consta de un brazer (camisa) con un lazo amarillo, medias largas negras, botas cafés y una falda plisada marrón ", Uri.parse("android.resource://com.example.recyclerview/"+R.drawable.i1)));
     }
 

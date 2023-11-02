@@ -35,6 +35,8 @@ public class NuevoElementoFragment extends Fragment {
         // Inflate the layout for this fragment
         return (binding = FragmentNuevoElementoBinding.inflate(inflater, container, false)).getRoot();
     }
+    //Codigo para que permita subir imagenes de la galeria
+    //En el AndroidManifest hay que poner esta linea: <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
